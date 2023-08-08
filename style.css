@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #b1cc74;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing:2px;
+    padding: 0.5rem;
+    border-radius: 5rem;
+}
+
+
+nav{
+
+    display: flex;
+    gap: 7rem;
+}
+
+header a:hover {
+
+    background: #84BC00;
+    transform: scale(1.1);      
+    transition: transform .5s;
+    
+
+
+
+}
